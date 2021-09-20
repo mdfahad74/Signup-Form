@@ -1,0 +1,69 @@
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-Up/Login Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="form">
+    <h1 class="heading">Sign-Up Form</h1>
+      <ul class="top-area">
+        <li class="tab active sign"><a href="#signup">Sign Up</a></li>
+        <li class="tab log"><a href="#login">Log In</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="signup">
+          <form action="/" method="post">
+          <div class="label-field">
+            <input type="email" class="input-field" required autocomplete="off" placeholder="Email"/>
+          </div>
+
+          <div class="label-field">
+            <input type="password" class="input-field" required autocomplete="off" placeholder="Password"/>
+          </div>
+
+          <div class="label-field">
+            <input type="password" class="input-field" required autocomplete="off" placeholder="Confirm Password"/>
+          </div>
+
+          <div class="label-field file-div">
+            <input type="file" class="input-field file" required autocomplete="off" placeholder="Upload"/>
+          </div>
+
+          <button type="submit" class="button button-block"/>Sign Up</button>
+
+          </form>
+
+        </div>
+
+        <div id="login">
+          <form action="/" method="post">
+
+            <div class="label-field">
+            <input type="email" class="input-field" required autocomplete="off" placeholder="Email Address"/>
+          </div>
+
+          <div class="label-field">
+            <input type="password" class="input-field" required autocomplete="off" placeholder="Password"/>
+          </div>
+
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+          <button class="button button-block">Log In</button>
+
+          </form>
+
+        </div>
+
+      </div>
+</div>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="index.js"></script>
+
+</body>
+</html>
